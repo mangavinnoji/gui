@@ -125,6 +125,18 @@
       color: white;
     }
 
+    .nested .nested .nested .nested .nested summary {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e3a8a;
+      font-size: 11px;
+      padding: 5px 10px;
+    }
+
+    .nested .nested .nested .nested .nested summary:hover {
+      background: linear-gradient(135deg, #bfdbfe 0%, #93c5fd 100%);
+      color: #1e40af;
+    }
+
     /* Item Styling */
     .item {
       background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
@@ -373,15 +385,336 @@
                               </div>
                             </details>
 
-                            <!-- Subsystem 1 -->
+                            <!-- ============================================
+                                 SUBSYSTEM 1 - UPDATED WITH NEW STRUCTURE
+                                 ============================================ -->
                             <details>
                               <summary>⚙️ Subsystem 1</summary>
                               <div class="nested">
-                                <div class="item">Design Start Date</div>
-                                <div class="item">Design Completion Date</div>
-                                <div class="item">Integration Start Date</div>
-                                <div class="item">Integration Completion Date</div>
-                                <div class="item">Testing Status</div>
+
+                                <!-- Block Diagram Sign Off -->
+                                <details>
+                                  <summary>📊 Block Diagram Sign Off</summary>
+                                  <div class="nested">
+                                    <div class="item">Software BD Sign Off</div>
+                                    <div class="item">Hardware BD Sign Off</div>
+                                    <div class="item">Inputs to Mechanical Team</div>
+                                  </div>
+                                </details>
+
+                                <!-- Long Lead Items -->
+                                <details>
+                                  <summary>⏱️ Long Lead Items</summary>
+                                  <div class="nested">
+                                    <div class="item">Identification</div>
+                                    <div class="item">Purchase Requisition</div>
+                                    <div class="item">Purchase Order</div>
+                                    <div class="item">Delivery Date</div>
+                                  </div>
+                                </details>
+
+                                <!-- Design Management -->
+                                <details>
+                                  <summary>📐 Design Management</summary>
+                                  <div class="nested">
+
+                                    <!-- Mechanical Design -->
+                                    <details>
+                                      <summary>🔩 Mechanical Design</summary>
+                                      <div class="nested">
+
+                                        <!-- Design 1 -->
+                                        <details>
+                                          <summary>📋 Design 1</summary>
+                                          <div class="nested">
+                                            <div class="item">Inputs Received Date</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Review</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Drawing Release Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Design 2 -->
+                                        <details>
+                                          <summary>📋 Design 2</summary>
+                                          <div class="nested">
+                                            <div class="item">Inputs Received Date</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Review</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Drawing Release Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Design 3 -->
+                                        <details>
+                                          <summary>📋 Design 3</summary>
+                                          <div class="nested">
+                                            <div class="item">Inputs Received Date</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Review</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Drawing Release Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Design 4 -->
+                                        <details>
+                                          <summary>📋 Design 4</summary>
+                                          <div class="nested">
+                                            <div class="item">Inputs Received Date</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Review</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Drawing Release Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Design 5 -->
+                                        <details>
+                                          <summary>📋 Design 5</summary>
+                                          <div class="nested">
+                                            <div class="item">Inputs Received Date</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Review</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Drawing Release Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Design 6 -->
+                                        <details>
+                                          <summary>📋 Design 6</summary>
+                                          <div class="nested">
+                                            <div class="item">Inputs Received Date</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Review</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Drawing Release Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                          </div>
+                                        </details>
+
+                                      </div>
+                                    </details>
+
+                                    <!-- Electronics Design -->
+                                    <details>
+                                      <summary>🔌 Electronics Design</summary>
+                                      <div class="nested">
+
+                                        <!-- Assembly Board AB Proto 1 -->
+                                        <details>
+                                          <summary>🖥️ Assembly Board AB Proto 1</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">PCB AB Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Assembly Board AB Proto 2 -->
+                                        <details>
+                                          <summary>🖥️ Assembly Board AB Proto 2</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">PCB AB Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Assembly Board AB Proto 3 -->
+                                        <details>
+                                          <summary>🖥️ Assembly Board AB Proto 3</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">PCB AB Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Assembly Board AB Proto 4 -->
+                                        <details>
+                                          <summary>🖥️ Assembly Board AB Proto 4</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">PCB AB Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Assembly Board AB Proto 5 -->
+                                        <details>
+                                          <summary>🖥️ Assembly Board AB Proto 5</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">PCB AB Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Assembly Board AB Proto 6 -->
+                                        <details>
+                                          <summary>🖥️ Assembly Board AB Proto 6</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">PCB AB Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                      </div>
+                                    </details>
+
+                                    <!-- Antenna Design -->
+                                    <details>
+                                      <summary>📡 Antenna Design</summary>
+                                      <div class="nested">
+
+                                        <!-- Antenna 1 -->
+                                        <details>
+                                          <summary>📡 Antenna 1</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">Antenna Assembly Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Antenna 2 -->
+                                        <details>
+                                          <summary>📡 Antenna 2</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">Antenna Assembly Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Antenna 3 -->
+                                        <details>
+                                          <summary>📡 Antenna 3</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">Antenna Assembly Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Antenna 4 -->
+                                        <details>
+                                          <summary>📡 Antenna 4</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">Antenna Assembly Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Antenna 5 -->
+                                        <details>
+                                          <summary>📡 Antenna 5</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">Antenna Assembly Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                        <!-- Antenna 6 -->
+                                        <details>
+                                          <summary>📡 Antenna 6</summary>
+                                          <div class="nested">
+                                            <div class="item">Gathering Inputs</div>
+                                            <div class="item">Design Start Date</div>
+                                            <div class="item">Design Completion Date</div>
+                                            <div class="item">Purchase Requisition</div>
+                                            <div class="item">Purchase Order</div>
+                                            <div class="item">Delivery Date</div>
+                                            <div class="item">Antenna Assembly Completion</div>
+                                            <div class="item">Proto Testing</div>
+                                            <div class="item">Production PR Date</div>
+                                          </div>
+                                        </details>
+
+                                      </div>
+                                    </details>
+
+                                  </div>
+                                </details>
+
                               </div>
                             </details>
 
